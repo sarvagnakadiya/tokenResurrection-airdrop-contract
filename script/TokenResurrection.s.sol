@@ -7,7 +7,8 @@ import "../src/TokenResurrection.sol"; // Adjust the import path according to yo
 contract DeployTokenResurrection is Script {
     function run() external {
         // Specify the address of the token you want to use for the airdrop
-        address tokenAddress = 0x4200000000000000000000000000000000000042; // Replace with the actual token address
+        // address tokenAddress = 0x4200000000000000000000000000000000000042; // Replace with the actual token address
+        address tokenAddress = 0x969C1CeE57332E7e614c849Da2b6EfBC81f3fd60; // mock TRR token address
 
         // Start broadcasting the transaction
         vm.startBroadcast();
